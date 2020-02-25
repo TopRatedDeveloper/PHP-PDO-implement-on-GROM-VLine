@@ -1,0 +1,72 @@
+.data-table {
+    width: 100%;
+}
+
+table {
+    border: 0;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 100%;
+    border-collapse: collapse;
+}
+
+.data-table thead {
+    background: none;
+    border-color: #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.data-table thead th .nobr {
+    white-space: nowrap !important;
+}
+
+.data-table thead th {
+    font-weight: bold;
+    vertical-align: bottom;
+    border-right: none;
+}
+
+.data-table th, .data-table td {
+    padding: 12px 12px;
+}
+
+.data-table tr.odd.last {
+    border-bottom: #eee solid 1px;
+}
+
+.data-table tr.odd td, .data-table tr.odd th {
+    border-right: 1px solid #f5f5f5;
+}
+
+.data-table tr.odd td.last {
+    border-right: none;
+}
+
+.form-list textarea {
+    width: 260px;
+    height: 10em;
+}
+
+.rating-box {
+    width: 69px;
+    height: 13px;
+    font-size: 0;
+    line-height: 0;
+    background: url(https://www.beatsonicusa.com/skin/frontend/ultimo/default/images/img/rating.png) 0 0 repeat-x;
+    text-indent: -999em;
+    overflow: hidden;
+}
+
+.rating-box .rating {
+    float: left;
+    height: 13px;
+    background: url(https://www.beatsonicusa.com/skin/frontend/ultimo/default/images/img/rating.png) 0 100% repeat-x;
+}
+
+.ratings-table th {
+    padding-right: 8px;
+}
+
+.highlight {
+    font-size: 13px;
+}
